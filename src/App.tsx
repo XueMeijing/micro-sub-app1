@@ -1,25 +1,30 @@
 import { useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useLocation } from 'react-router-dom'
+import Routes from './router/router'
+
+import './_style/icon.less'
 
 function App() {
   const navigate = useNavigate()
+  const subLocation1 = useLocation()
+  console.log('subLocation1', subLocation1)
+  
   useEffect(() => {
     // 监听基座下发的数据变化
     const dataListener = (data: any) => {
-      const { type, data: receivedData } = data
-      switch (type) {
-        case 'micro-app-ng':
-          console.log('**********')
-          navigate(receivedData.path)
+      switch (data.type) {
+        case 'switchTab':
+          console.log('micro-sub-app1 switchTab')
+          navigate(data.path)
           return
       }
     }
-    (window as any).microApp && (window as any).microApp.addGlobalDataListener(dataListener, true)
+    (window as any).microApp && (window as any).microApp.addDataListener(dataListener, true)
   }, [])
   
   return (
     <div className="App">
-      microNg
+      <Routes />
     </div>
   );
 }

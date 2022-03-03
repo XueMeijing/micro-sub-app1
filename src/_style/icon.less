@@ -1,0 +1,981 @@
+
+//我的模块字体图标
+@font-face {
+  font-family: 'FontMaycur';
+  src: url('https://h5-team4.maycur.com/main/css/fonts/FontMaycur.eot?3myru9');
+  src: url('https://h5-team4.maycur.com/main/css/fonts/FontMaycur.eot?3myru9#iefix') format('embedded-opentype'),
+  url('https://h5-team4.maycur.com/main/css/fonts/FontMaycur.ttf?3myru9') format('truetype'),
+  url('https://h5-team4.maycur.com/main/css/fonts/FontMaycur.woff?3myru9') format('woff');
+  // src: url('../assets/fonts/FontMaycur.eot?3myru9');
+  // src: url('../assets/fonts/FontMaycur.eot?3myru9#iefix') format('embedded-opentype'),
+  // url('../assets/fonts/FontMaycur.ttf?3myru9') format('truetype'),
+  // url('../assets/fonts/FontMaycur.woff?3myru9') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="fm-"], [class*=" fm-"] {
+  line-height: 1;
+  &:before {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'FontMaycur' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.fm {
+  font-family: 'FontMaycur' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.fm-audit-outline:before{
+  content: "\e76f";
+}
+.fm-audit-inline:before{
+  content: "\e770";
+}
+
+.fm-invoice-type:before{
+  content: "\e9d8";
+}
+
+.fm-remarks:before{
+  content: "\e676";
+}
+
+.fm-more-application:before {
+  content: "\e6d0";
+}
+
+.fm-home-taxi:before {
+  content: "\e6d2";
+}
+
+.fm-home-train:before {
+  content: "\e6d8";
+}
+
+.fm-home-hotel:before {
+  content: "\e6d3";
+}
+
+.fm-home-air:before {
+  content: "\e6cf";
+}
+
+.fm-reim-type:before {
+  content: "\e6a1"
+}
+
+.fm-pre-type:before {
+  content: "\e6a9"
+}
+
+.fm-repayment-type:before {
+  content: "\e6be"
+}
+
+.fm-corpreim-type:before{
+  content: "\e71a"
+}
+
+.fm-company-info:before {
+  content: "\e6d4"
+}
+
+.fm-invoice-pool:before {
+  content: "\e6cd"
+}
+
+.fm-personal-report:before {
+  content: "\e6d1"
+}
+
+.fm-car-mileage-icon:before {
+  content: "\e6ce"
+}
+
+.fm-third-icon:before {
+  content: "\e6d6"
+}
+
+.fm-add-reim:before {
+  content: "\e6d9"
+}
+
+.fm-add-expense:before {
+  content: "\e6db"
+}
+
+.fm-no-travel:before {
+  content: "\e937"
+}
+
+.fm-checked-outline:before {
+  content: "\e6dc"
+}
+
+.fm-check-outline:before {
+  content: "\e6dd"
+}
+
+.fm-travel-manager:before {
+  content: "\e6d7";
+}
+
+.fm-print:before {
+  margin: 0 10px;
+  content: "\e6cb";
+}
+
+.fm-info:before {
+  content: '\e61c';
+}
+
+.fm-phone:before {
+  content: '\e9f2';
+}
+
+.fm-delete2:before {
+  content: "\e9c6";
+}
+
+.fm-third-platform2:before {
+  content: "\e9f3"
+}
+
+.fm-ac-user:before {
+  content: "\e626"
+}
+
+.fm-add-person:before {
+  content: "\e6bb"
+}
+
+.fm-scanner2:before {
+  content: "\e9f4"
+}
+
+.fm-credit:before {
+  content: "\e93f"
+}
+
+.fm-tools:before {
+  content: "\e92d";
+}
+
+.fm-more:before {
+  content: "\e9d7";
+}
+
+.fm-home:before {
+  content: "\e9cf";
+}
+
+.fm-home2:before {
+  content: "\e6d5";
+}
+
+.fm-ubtrip:before {
+  content: "\e607";
+}
+
+.fm-itravel:before {
+  content: "\e627";
+}
+
+.fm-btbtrip:before {
+  content: "\e9ec";
+}
+
+.fm-govbuy:before {
+  content: "\e9dd";
+}
+
+.fm-caocao:before {
+  content: "\e70d";
+}
+
+.fm-hotel3:before {
+  content: "\e9e0";
+}
+
+.fm-huazhu:before {
+  content: "\e9df";
+}
+
+.fm-huoli:before {
+  content: "\e9c0";
+}
+
+.fm-allocation:before {
+  content: "\e9c3"
+}
+
+.fm-2dfire:before {
+  content: "\e9c5";
+}
+
+.fm-amex:before {
+  content: "\e9c1";
+}
+
+.fm-distance:before {
+  content: "\e9bd";
+}
+
+.fm-distance-bold:before {
+  content: "\e9be";
+}
+
+.fm-position:before {
+  content: "\e9bf";
+}
+
+.fm-switch:before {
+  content: '\e9b4';
+}
+
+.fm-bzfk:before {
+  content: "\e917";
+}
+
+.fm-xiayiceng:before {
+  content: "\e918";
+}
+
+.fm-tempus:before {
+  content: "\e612";
+}
+
+.fm-hrg:before {
+  content: "\e614";
+}
+
+.fm-airplus:before {
+  content: "\e613";
+}
+
+.fm-meiya:before {
+  content: "\e621";
+}
+
+.ion-chevron-right:before {
+  content: "\e918";
+  font-family: 'FontMaycur' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fm-has-expense-app:before {
+  content: '\e9a9';
+}
+
+.fm-icon-budget:before {
+  content: '\e9b5';
+}
+
+.fm-expense-control:before {
+  content: "\e97f";
+}
+
+.fm-reservation:before {
+  content: "\e99b";
+}
+
+.fm-reservation-inline:before {
+  content: "\e99c";
+}
+
+.fm-down:before {
+  content: "\e921";
+}
+
+.fm-up:before {
+  content: "\e922";
+}
+
+.fm-tianjia:before {
+  content: "\e900";
+}
+
+.fm-jianhao:before {
+  content: "\e9a5";
+}
+
+.fm-daoru:before {
+  content: "\e901";
+}
+
+.fm-fanhui:before {
+  content: "\e902";
+}
+
+.fm-scanner:before {
+  content: "\e903";
+}
+
+.fm-shaixuan:before {
+  content: "\e904";
+}
+
+.fm-sousuo {
+  font-size: 20px;
+  &:before {
+    content: "\e905";
+  }
+}
+
+.fm-disanfang:before {
+  content: "\e906";
+}
+
+.fm-yinhangka:before {
+  content: "\e907";
+}
+
+.fm-anquan:before {
+  content: "\e908";
+}
+
+.fm-shezhi:before {
+  content: "\e909";
+}
+
+.fm-qiehaun:before {
+  content: "\e90a";
+}
+
+.fm-feiyong:before {
+  content: "\e90b";
+}
+
+.fm-third-platform:before {
+  content: "\e957";
+}
+
+.fm-baoxiao:before {
+  content: "\e90c";
+}
+
+.fm-shenpi:before {
+  content: "\e90d";
+}
+
+.fm-wode:before {
+  content: "\e90e";
+}
+
+.fm-feiyong2:before {
+  content: "\e90f";
+}
+
+.fm-baoxiao2:before {
+  content: "\e910";
+}
+
+.fm-shenpi2:before {
+  content: "\e911";
+}
+
+.fm-wode2:before {
+  content: "\e912";
+}
+
+.fm-ctrip:before {
+  content: "\e913";
+}
+
+.fm-fanjia:before {
+  content: "\e710";
+}
+
+.fm-alitrip:before {
+  content: "\e7ca";
+}
+
+.fm-travelno1:before {
+  content: "\e6ca";
+}
+
+.fm-cmb:before {
+  content: "\e914";
+}
+
+.fm-didi:before {
+  content: "\e915";
+}
+
+.fm-dianping:before {
+  content: "\e916";
+}
+
+.fm-subsidy:before {
+  content: "\e941";
+}
+
+.fm-forward:before {
+  content: "\e947";
+  color: #00bcd4;
+}
+
+.fm-countersign:before {
+  content: "\e946";
+}
+
+.fm-ccb:before {
+  content: "\e91b";
+}
+
+.fm-boc:before {
+  content: "\e91c";
+}
+
+.fm-icbc:before {
+  content: "\e91a";
+}
+
+.fm-signup-notice:before {
+  content: "\e671";
+}
+
+.fm-down:before {
+  content: "\e921";
+  display: inline-block;
+}
+
+.fm-tick:before {
+  content: "\e919";
+}
+
+.fm-receipt:before {
+  content: "\e94c";
+}
+
+.fm-add-bold {
+  font-size: 20px;
+  &:before {
+    content: "\e998";
+  }
+}
+
+.fm-add-circle:before {
+  content: "\e9c4";
+}
+
+.fm-trash:before {
+  content: "\e9c6";
+}
+
+.deal-info-list {
+  .fm-cmb:before {
+    content: "\e914";
+    color: #bc1717;
+  }
+
+  .fm-ccb:before {
+    content: "\e91b";
+    color: #0066B3;
+  }
+}
+
+.cmb-order {
+  .fm-cmb:before {
+    content: "\e914";
+    color: #fff;
+  }
+}
+
+.fm-sign:before {
+  content: '\e985';
+}
+
+.fm-fork:before {
+  content: '\e923';
+}
+
+.fm-delete:before {
+  content: '\e9a2';
+}
+
+.fm-modify:before {
+  content: '\e996';
+  color: #1199ff;
+}
+
+.fm-pdf:before {
+  content: '\e98d';
+  color: #dc6941;
+}
+
+.fm-ppt:before {
+  content: '\e993';
+  color: #e18255;
+}
+
+.fm-doc:before {
+  content: '\e994';
+  color: #5a78a5;
+}
+.fm-ofd:before {
+  content: '\e74e';
+  color: #5a78a5;
+}
+
+.fm-sub-fee:before {
+  content: '\e9b6';
+}
+
+.fm-double-down:before {
+  content: '\e9ba';
+}
+
+.fm-double-up:before {
+  content: '\e9bb';
+}
+
+.fm-filter {
+  font-size: 20px;
+  &:before {
+    content: '\e9ca';
+  }
+}
+
+.fm-report:before {
+  content: '\e9cb';
+}
+
+.fm-checking:before {
+  content: '\e999';
+}
+
+.fm-department:before {
+  content: '\e9b0';
+}
+
+.fm-project:before {
+  content: '\e9b1';
+}
+
+.fm-employee:before {
+  content: '\e956';
+}
+
+.fm-sort:before {
+  content: '\e9cd';
+}
+
+.fm-item:before {
+  content: '\e9ce';
+}
+
+.fm-type:before {
+  content: '\e9cc';
+}
+
+.fm-question:before {
+  content: '\e9ab';
+  color: #1199ff;
+}
+
+.fm-remind:before {
+  content: '\e991';
+}
+
+.fm-travel:before {
+  content: '\e66c';
+}
+
+.fm-help:before {
+  content: '\e688';
+}
+
+.fm-lamp:before {
+  content: '\e689';
+}
+
+.fm-tip:before {
+  content: '\e97e';
+}
+
+//银行卡模块font
+
+.fm-xls:before {
+  content: '\e98f';
+  color: #6c8c73;
+}
+
+.fm-zip:before {
+  content: '\e995';
+}
+
+.fm-rar:before {
+  content: '\98e';
+}
+
+.fm-multiplePayee:before {
+  content: '\e694';
+}
+
+//银行卡模块font
+
+.fm-bank-icon:before {
+  font-size: 2rem;
+  content: "\e907";
+}
+
+.fm-alipay:before {
+  content: "\e990";
+}
+
+.fm-cash:before {
+  content: "\e992";
+}
+
+.fm-bank-cmb:before {
+  content: "\e914";
+}
+
+.fm-bank-ccb:before {
+  content: "\e91b";
+}
+
+.fm-bank-boc:before {
+  content: "\e91c";
+}
+
+.fm-bank-bcm:before {
+  content: "\e91f";
+}
+
+.fm-bank-citic:before {
+  content: "\e91e";
+}
+
+.fm-bank-abc:before {
+  content: "\e91d";
+}
+
+.fm-bank-icbc:before {
+  content: "\e91a";
+}
+
+.fm-bank-cmbc:before {
+  content: "\e920";
+}
+
+.fm-bank-spdb:before {
+  content: "\e927";
+}
+
+.fm-auth:before {
+  content: '\e934';
+}
+
+.fm-wechat:before {
+  content: '\e670';
+  color: #30ce34;
+}
+
+.fm-alipay:before {
+  content: '\e66e';
+  color: #1877FF;
+}
+
+.fm-wechat2:before {
+  content: '\e6b9';
+  color: #30ce34;
+}
+
+.fm-alipay2:before {
+  content: '\e990';
+  color: #0da4e1;
+}
+
+.fm-assocation:before {
+  content: "\e6c7";
+}
+
+.fm-photo:before {
+  content: "\e6b6";
+}
+
+.fm-camera:before {
+  content: "\e6da";
+}
+
+.fm-dot-add:before {
+  content: '\e60e';
+  color: #999;
+}
+
+.fm-num-delete:before {
+  content: '\e6b8';
+}
+
+.fm-flashlight-on:before {
+  content: '\e616';
+}
+
+.fm-flashlight-off:before {
+  content: '\e616';
+}
+
+.fm-auth-on:before {
+  content: '\e65c';
+}
+
+.fm-auth-off:before {
+  content: '\e65d';
+}
+
+.fm-flashlight-on:before {
+  content: '\e615';
+}
+
+.fm-en-validated:before {
+  content: '\e628';
+}
+
+.fm-download:before {
+  content: '\e9e5';
+}
+
+.fm-location:before {
+  content: '\e9f5';
+  color: #2B8FEC;
+}
+
+.fm-history-location:before {
+  content: '\e683';
+  color: #2B8FEC;
+}
+
+.fm-select:before {
+  content: '\e9ed';
+}
+
+.fm-notice:before {
+  content: '\e618';
+}
+
+.fm-prompt:before {
+  content: '\e61b';
+}
+
+.fm-scenario-1:before {
+  content: '\e65b';
+}
+
+.fm-scenario-2:before {
+  content: '\e664';
+}
+
+.fm-scenario-3:before {
+  content: '\e665';
+}
+
+.fm-scenario-4:before {
+  content: '\e6e0';
+}
+
+.fm-scenario-5:before {
+  content: '\e74d';
+}
+
+.fm-scenario-6:before {
+  content: '\e74c';
+}
+
+.fm-scenario-201:before {
+  content: '\e6df';
+}
+
+.fm-scenario-205:before {
+  content: '\e6e0';
+}
+
+.fm-scenario-999:before {
+  content: '\e626';
+}
+
+.fm-pisolution:before {
+  content: '\e6e2';
+}
+
+.fm-refresh:before {
+  content: '\e70b';
+}
+
+.fm-full-screen:before {
+  content: '\e6e4';
+}
+
+.fm-clear:before {
+  content: '\e6e3';
+}
+
+.fm-glority:before {
+  content: "\e60f";
+}
+
+.fm-baiwang:before {
+  content: "\e98c";
+}
+
+.fm-locket:before {
+  content: "\e960";
+}
+
+.fm-chart:before {
+  content: "\e9ef";
+}
+
+.fm-suggestion:before {
+  content: "\e99a";
+}
+
+.fm-follow:before {
+  content: "\e6ea";
+}
+
+.fm-acard:before {
+  content: "\e6e8";
+}
+
+.fm-settour:before {
+  content: "\e6e5";
+}
+
+.fm-huoliflight:before {
+  content: "\e6e1";
+}
+
+.fm-attendance:before {
+  content: "\e716";
+}
+
+.fm-scan:before {
+  content: '\e63e';
+}
+
+.fm-foxsoso:before {
+  content: "\ea49";
+}
+
+.fm-radio-check:before {
+  content: '\e9ad';
+}
+
+.fm-circle:before {
+  content: '\e9b9';
+}
+
+.fm-eleme:before {
+  content: '\e72f';
+}
+
+.fm-common-report:before {
+  content: '\e739';
+}
+
+.fm-custom-report:before {
+  content: '\e701';
+}
+
+.fm-huabei:before {
+  content: '\e749';
+}
+
+.fm-warning:before {
+  content: "\e61d";
+}
+
+.fm-alicar:before {
+  content: "\e750"
+}
+
+.fm-agaode:before {
+  content: "\e750"
+}
+
+// .fm-home-alicar {
+//   width: 35px;
+//   height: 35px;
+//   background-image: url("../imgs/alicar-icon.svg");
+//   background-size: 35px;
+//   background-repeat: no-repeat;
+// }
+
+.fm-calculate:before {
+  content: "\e74f"
+}
+
+.fm-return:before {
+  content: '\e752'
+}
+.fm-bank-cash:before {
+  content: "\e65e"
+}
+
+.fm-track:before {
+  content: "\e755"
+}
+.fm-track2:before {
+  content: "\e762"
+}
+.fm-setting:before{
+  content: "\e761"
+}
+.fm-setting2:before{
+  content: "\e754"
+}
+
+.fm-track-switch:before {
+  content: '\e75f'
+}
+.fm-guide-light:before {
+  content: "\e758"
+}
+
+.fm-horizontal:before {
+  content: "\e75a"
+}
+
+.fm-full-invoice:before {
+  content: "\e759"
+}
+
+.fm-copy:before {
+  content: "\e608"
+}
+
+.fm-management:before {
+  content: "\e715"
+}

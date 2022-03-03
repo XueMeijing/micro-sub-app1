@@ -6,9 +6,9 @@ import Test from '../pages/Test'
 const Routers = () => {
   return (
     <Routes>
-      <Route path='/main/expenses' element={<Expenses />} />
-      <Route path='/main/test' element={<Test />} />
-      {/* <Route path='/*' element={<Navigate to='/main/expenses' />} /> */}
+      <Route path='/main/page1' element={<Expenses />} />
+      <Route path='/main/page2' element={<Test />} />
+      <Route path='/*' element={<Navigate to='/main/expenses' />} />
     </Routes>
   )
 }

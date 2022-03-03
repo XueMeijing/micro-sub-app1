@@ -1,31 +1,386 @@
-import { useNavigate } from 'react-router-dom'
-import {
-  IonToolbar,
-  IonTitle,
-  IonButtons,
-  IonContent,
-  IonButton,
-  IonIcon
-} from '@ionic/react'
-import {
-  filterOutline,
-  addOutline
-} from 'ionicons/icons'
+import './index.less'
 
 const Index = () => {
-  const navigate = useNavigate()
   return (
     <>
-      {/* <IonContent
-        scrollEvents={true}
-        onIonScrollStart={() => {}}
-        onIonScroll={() => {}}
-        onIonScrollEnd={() => {}}
-        color='light'
-      >
-        <h1>ng test</h1>
-      </IonContent> */}
-      <div>12312312</div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test img-camera">
+      </div>
+      <i className="sub-icon fm-company-info"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
+      <i className="sub-icon fm-wode"></i>
+      <div className="test">
+      </div>
     </>
   )
 }
